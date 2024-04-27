@@ -1,27 +1,19 @@
-@media(max-width:1140px) {
+@media(max-width:1400px) {
     
-    .scyt-fon{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    } 
-    .nav_logo-text{
-        
-    }
-}
-@media(max-width:900px) {
-    .nav_links {
-        display: none;
-    }
     .shahsiz{
         font-size: 14px;
     }
     .title{
         margin: 15px 0;
     }
-    
+   
+    .syorfin{
+        width: 600px;
+    }
     .menu {
         display: block;
+        width: 28px;
+        margin: 0 10px;
 }
     .img_title{
     font-size: 16px;
@@ -30,6 +22,9 @@
     .scyt-fon {
         flex-direction: column;
         align-items: center;
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
     .title {
         display: flex;
@@ -48,15 +43,14 @@
         padding: 5px;
     }
     .tex {
-        width: 50%;
+        width: 35%;
         justify-content: start;
         font-size: 12px;
     }
     .tex_box-title{
         font-size: 14px;
         line-height: normal;
-        padding-bottom: 5px;
-        
+        padding-bottom: 5px; 
     }
     .tex_box {
         order: 1;
@@ -70,43 +64,268 @@
     }
     .main_text-inside {
         flex-wrap: wrap;
+        gap: 12px;
+        padding: 0 2px;
+       
     }
+    
     .img_text {
         gap: 30px;
         font-size: 14px;
         overflow-x: scroll;
-        height: 300px;
+        height: 200px;
     }
     .links {
         flex-wrap: wrap;
     }
     .nike{
+        font-size: 17px;
+    }
+    .nik{
+        font-size: 17px;
+    }
+    .logo{
+        width: 150px;
+    }
+}
+@media(max-width:1300px) {
+    .syorfin{
+        width: 580px;
+    }
+    .main_text-inside {
+        gap: 11px;
+    }
+    .menu{
+        width: 26px;
+    }
+    .title{
+        margin: 14px 0;
+    }
+    .menu {
+        width: 26px;
+}
+}
+
+@media(max-width:1200px) {
+    .syorfin{
+        width: 560px;
+    }
+    .main_text-inside {
+        gap: 10px;
+    }
+    .llogo{
+        width: 140px;
+    }
+    .nike{
         font-size: 16px;
+    }
+    .title{
+        margin: 13px 0;
+    }
+    .menu {
+        width: 24px;
+    }
+}
+
+@media(max-width:1150px) {
+    .syorfin{
+        width: 540px;
+    }
+    .main_text-inside {
+        gap: 9px;
+    }
+    .logo{
+        width: 140px;
+    }
+    .title{
+        margin: 12px 0;
+    }
+    .llogo{
+        width: 130px;
+    }
+    .nike{
+        font-size: 15px;
+    }
+    .nik{
+        font-size: 16px;
+    }
+    .menu {
+        width: 22px;
+    }
+}
+@media(max-width:1100px) {
+    .syorfin{
+        width: 520px;
+    }
+    .main_text-inside {
+        gap: 8px;
+    }
+    .logo{
+        width: 130px;
+    }
+    .llogo{
+        width: 120px;
+    }
+    .nike{
+        font-size: 14px;
+    }
+    .title{
+        margin: 11px 0;
+    }
+    .nik{
+        font-size: 15px;
+    }
+    .menu {
+        width: 20px;
+    }
+}
+@media(max-width:1050px) {
+    .syorfin{
+        width: 500px;
+    }
+    .main_text-inside {
+        gap: 7px;
+    }
+    .title{
+        margin: 10px 0;
+    }
+    .logo{
+        width: 120px;
+    }
+    .llogo{
+        width: 110px;
+    }
+    .nike{
+        font-size: 13px;
     }
     .nik{
         font-size: 14px;
     }
+    .menu {
+        width: 18px;
+    }
 }
 
-@media(max-width:700px) {
+
+@media(max-width:1000px) {
+    .syorfin{
+        width: 480px;
+    }
+    .main_text-inside {
+        gap: 6px;
+    }
+    .logo{
+        width: 110px;
+    }
+    .llogo{
+        width: 100px;
+    }
+    .nav_links {
+        display: none;
+    }
+    .footer .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nike{
+        font-size: 12px;
+    }
+    .title{
+        margin: 9px 0;
+    }
+    .nik{
+        font-size: 13px;
+    }
+    .menu {
+        width: 16px;
+    }
+}
+@media(max-width:950px) {
+    .syorfin{
+        width: 460px;
+    }
+    .main_text-inside {
+        gap: 5px;
+    }
+    .logo{
+        width: 100px;
+    }
+    .menu {
+        width: 14px;
+    }
+    .llogo{
+        width: 90px;
+    }
+    .title{
+        margin: 8px 0;
+    }
+    
+}
+@media(max-width:900px) {
+    .syorfin{
+        width: 440px;
+    }
+    .main_text-inside {
+        gap: 4px;
+    }
+    .title{
+        margin: 7px 0;
+    }
+    .menu {
+        width: 12px;
+    }
+}
+@media(max-width:850px) {
+    .syorfin{
+        width: 420px;
+    }
+    .main_text-inside {
+        gap: 3px;
+    }
+    .title{
+        margin: 6px 0;
+    }
+    .menu {
+        width: 10px;
+    }
+}
+@media(max-width:750px) {
     .main_text-inside {
         flex-wrap: nowrap;
         overflow: hidden;
         overflow-x: scroll;
+        gap: 2px;
+       
+    }
+    .menu {
+        width: 8px;
+    }
+    .text-scroll{
+        height: 120px;
+        overflow-x: scroll;
+    }
+    .tex_box-text{
+        overflow-x: scroll;
     }
     .tex{
         flex-shrink: 0;
-      
+        width: 150px;
+
+    }
+    .title{
+        margin: 5px 0;
     }
     .tex-blue {
-        border-radius: 0;
-    }
-    .tex-green {
         border-radius: 0;
     }
     .syorfin{
         width: 70%;
     }
+    .tex-green {
+        border-radius: 0;
+    }
+    
     .shahsiz{
         font-size: 12px;
     }
@@ -117,12 +336,31 @@
     .nik{
         font-size: 14px;
     }
+    
+   
+   
+
 }
-@media(max-width:550px) {
+@media(max-width:600px) {
+    .main_text-inside {
+        gap: 1px;
+        justify-content: flex-start;
+    }
+   
+    .title{
+        margin: 4px 0;
+    }
+}
+
+@media(max-width:500px) {
+    .main_text-inside {
+        gap: 0;
+    }
         .img_title{
             font-size: 14px;
             margin: auto;
         }
+        
         .img_text {
             gap: 10px;
             font-size: 12px;
@@ -131,18 +369,11 @@
             font-size: 14px;
         }
 }
-@media(max-width:) {}
 
-@media(max-width:) {}
-
-@media(max-width:) {}
-
-@media(max-width:) {}
-
-@media(max-width:) {}
-
-@media(max-width:) {}
-
-@media(max-width:) {}
-
-@media(max-width:) {}
+@media(max-width:400px) {
+    
+    .title{
+        margin: 3px 0;
+    }
+}
+@media(max-width:320px) {}

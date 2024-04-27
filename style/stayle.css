@@ -52,11 +52,7 @@ a {
     gap: 15px;
     justify-content: center;
 }
-.links {
-    display: flex;
-    gap: 15px;
-    justify-content: center;
-}
+
 .nav_link {
     font-size: 18px;
     font-weight: 700;
@@ -218,7 +214,7 @@ a {
 .main_text-inside {
     display: flex;
     width: 100%; 
-  
+    justify-content: center;  
 }
 .rasm{
     display: block;
@@ -233,4 +229,18 @@ border: none;
 .menu img,
 .close img{
     width: 30px;
+}
+.ologo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    justify-content: center;
+
+}
+.logo-text {
+display: flex;
+gap: 3px;
+justify-content: center;
+
 }

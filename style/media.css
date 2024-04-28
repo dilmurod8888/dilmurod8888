@@ -6,19 +6,15 @@
     .title{
         margin: 15px 0;
     }
-   
     .syorfin{
         width: 600px;
     }
-    .menu {
-        display: block;
-        width: 28px;
-        margin: 0 10px;
-}
-    .img_title{
-    font-size: 16px;
-    margin: auto;
-}
+    .footer .nav_box {
+        
+    }
+    .img {
+        margin: 15px 0 34px;
+    }
     .scyt-fon {
         flex-direction: column;
         align-items: center;
@@ -35,9 +31,6 @@
     .container {
         display: flex;
         flex-wrap: wrap;
-    }
-    .img {
-        width: 100%;
     }
     .tex_box-first{
         padding: 5px;
@@ -68,7 +61,6 @@
         padding: 0 2px;
        
     }
-    
     .img_text {
         gap: 30px;
         font-size: 14px;
@@ -95,17 +87,12 @@
     .main_text-inside {
         gap: 11px;
     }
-    .menu{
-        width: 26px;
-    }
+    
     .title{
         margin: 14px 0;
     }
-    .menu {
-        width: 26px;
+    
 }
-}
-
 @media(max-width:1200px) {
     .syorfin{
         width: 560px;
@@ -122,11 +109,10 @@
     .title{
         margin: 13px 0;
     }
-    .menu {
-        width: 24px;
-    }
+    .img {
+        margin: 14px 0 32px;
+    }  
 }
-
 @media(max-width:1150px) {
     .syorfin{
         width: 540px;
@@ -140,6 +126,8 @@
     .title{
         margin: 12px 0;
     }
+    
+    
     .llogo{
         width: 130px;
     }
@@ -149,13 +137,14 @@
     .nik{
         font-size: 16px;
     }
-    .menu {
-        width: 22px;
-    }
+    
 }
 @media(max-width:1100px) {
     .syorfin{
         width: 520px;
+    }
+    .img {
+        margin: 11px 0 26px;
     }
     .main_text-inside {
         gap: 8px;
@@ -175,13 +164,14 @@
     .nik{
         font-size: 15px;
     }
-    .menu {
-        width: 20px;
-    }
+    
 }
 @media(max-width:1050px) {
     .syorfin{
         width: 500px;
+    }
+    .img {
+        margin: 10px 0 24px;
     }
     .main_text-inside {
         gap: 7px;
@@ -201,13 +191,18 @@
     .nik{
         font-size: 14px;
     }
-    .menu {
-        width: 18px;
-    }
+    
 }
-
-
 @media(max-width:1000px) {
+    .ologo{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+    .img {
+        margin: 12px 0 30px;
+    }
+    
     .syorfin{
         width: 480px;
     }
@@ -217,12 +212,15 @@
     .logo{
         width: 110px;
     }
+ 
+    .img_title{
+    font-size: 16px;
+    margin: auto;
+}
     .llogo{
         width: 100px;
     }
-    .nav_links {
-        display: none;
-    }
+    
     .footer .container{
         display: flex;
         justify-content: center;
@@ -237,8 +235,8 @@
     .nik{
         font-size: 13px;
     }
-    .menu {
-        width: 16px;
+    .menu img{
+        width: 26px;
     }
 }
 @media(max-width:950px) {
@@ -251,11 +249,11 @@
     .logo{
         width: 100px;
     }
-    .menu {
-        width: 14px;
+    .menu img{
+        width: 24px;
     }
     .llogo{
-        width: 90px;
+        width: 95px;
     }
     .title{
         margin: 8px 0;
@@ -266,28 +264,48 @@
     .syorfin{
         width: 440px;
     }
+    .menu {
+        display: block;
+        width: 28px;
+    }
+    .llogo{
+        width: 90px;
+    }
+    .nav_links {
+    display: none;
+    }
     .main_text-inside {
         gap: 4px;
     }
     .title{
         margin: 7px 0;
     }
-    .menu {
-        width: 12px;
+    .menu img{
+        width: 22px;
+    }
+    .nav_box{
+        width: unset;
     }
 }
 @media(max-width:850px) {
     .syorfin{
         width: 420px;
     }
+    .img {
+        margin: 10px 0 28px;
+    }
+    .llogo{
+        width: 85px;
+    }
+    
     .main_text-inside {
         gap: 3px;
     }
     .title{
         margin: 6px 0;
     }
-    .menu {
-        width: 10px;
+    .menu img{
+        width: 20px;
     }
 }
 @media(max-width:750px) {
@@ -298,8 +316,11 @@
         gap: 2px;
        
     }
-    .menu {
-        width: 8px;
+    .llogo{
+        width: 80px;
+    }
+    .menu img{
+        width: 18px;
     }
     .text-scroll{
         height: 120px;
@@ -336,25 +357,28 @@
     .nik{
         font-size: 14px;
     }
-    
-   
-   
-
 }
 @media(max-width:600px) {
     .main_text-inside {
         gap: 1px;
         justify-content: flex-start;
     }
-   
+    .img {
+        margin: 10px 0 26px;
+    }
+    .llogo{
+        width: 75px;
+    }
     .title{
         margin: 4px 0;
     }
 }
-
 @media(max-width:500px) {
     .main_text-inside {
         gap: 0;
+    }
+    .llogo{
+        width: 70px;
     }
         .img_title{
             font-size: 14px;
@@ -368,6 +392,9 @@
         .title{
             font-size: 14px;
         }
+        .menu img{
+            width: 16px;
+        }
 }
 
 @media(max-width:400px) {
@@ -375,5 +402,15 @@
     .title{
         margin: 3px 0;
     }
+    .menu img{
+        width: 14px;
+    }
+    .img {
+        margin: 10px 0 24px;
+    }
 }
-@media(max-width:320px) {}
+@media(max-width:320px) {
+    .img {
+        margin: 10px 0 22px;
+    }
+}

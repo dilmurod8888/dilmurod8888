@@ -35,13 +35,20 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px 0 ;
+    margin-top: 20px;
 }
-.nav_box{
+.footer .nav_box{
     display: flex;
     justify-content: space-between;
     align-items: center;   
     padding: 28px 0 29px;
+}
+.nav_box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 .footer{
     background: #3A3838;
